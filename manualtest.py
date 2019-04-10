@@ -26,11 +26,15 @@ driver.start(pwmr)
 drivel.start(pwml)
 lowt = 90
 
+# Input commands
+x = input("forw") #Move forward
+y = input("rev") #Reverse
+z = input("left") #Turn left
+v = input("right") #Turn right
+
 #t = 3
 #while t>0:                               #execute loop
    # t -= 1
-
-
 
 
 def forward():
@@ -169,3 +173,29 @@ while True:
    if input_state == False:
     print ("Button Pressed")
     leftpivot()
+      break; # REMOVE
+      
+while True: 
+   if x==1 
+   forward()
+   print "Move Forward" 
+   fstop()
+   break
+  else if y==1
+reverse()
+   print "Reverse" 
+   fstop()
+break
+
+while True:
+   if z==1
+   leftpivot()
+   print "pivot left"
+fstop()
+break
+   else if v==1
+   rightpivot()
+   print "pivot right"
+fstop()
+break
+
