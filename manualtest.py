@@ -19,8 +19,8 @@ sonar = GPIO.PWM(4,500)            #GPIO17 PWM, with 100Hz
 driver = GPIO.PWM(17,100)           #GPIO17 PWM, with 100Hz frequency used for Right motor
 drivel = GPIO.PWM(27,100)           #GPIO27 PWM, with 100Hz frequency used for Left  motor
 
-pwmr = 0
-pwml = 0
+pwmr = 0 #PWM for right motor
+pwml = 0 #PWM for left motor
 sonar.start(0)
 driver.start(pwmr)
 drivel.start(pwml)
